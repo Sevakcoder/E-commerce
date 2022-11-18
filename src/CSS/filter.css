@@ -1,0 +1,58 @@
+#filter-div {
+    margin: 0;
+    padding: 0;
+    height: 3.2rem;
+    flex-flow: row-reverse;
+    background-color: black;
+}
+
+#filter {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+}
+
+#filter ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+#filter ul li span {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Allerta';
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+
+.brewed-after-before {
+    width: 6rem;
+    height: 2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.item-search {
+    margin: 0.5rem 1rem;
+    padding: 0;
+    width: 20rem;
+    height: 2rem;
+}
+
+#no-search-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    font-size: 3rem;
+    font-weight: 600;
+
+}

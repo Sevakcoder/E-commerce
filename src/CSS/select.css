@@ -1,0 +1,207 @@
+#display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons-back-forward-div {
+    display: flex;
+}
+
+.button-back-forward {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0;
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+    color: rgba(54, 51, 51, 0.747);
+    background: transparent;
+    /* border: 1px solid rgba(54, 51, 51, 0.363); */
+    border-radius: 0.3rem;
+
+}
+.button-back-forward:hover {
+    background-color: rgba(128, 128, 128, 0.24);
+    cursor: pointer;
+}
+
+
+.selected-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 3rem auto 7rem auto;
+}
+
+
+.selected-item-image {
+    position: relative;
+    margin: 0.5rem;
+    padding: 0;
+    width: 8rem;
+    height: 16rem;
+    border: 0;
+    opacity: 0.95;
+}
+
+.selected-item-image-before {
+    position: absolute;
+    left: -4.5rem;
+    margin: 0.5rem;
+    padding: 0;
+    width: 10rem;
+    height: 20rem;
+    border: 0;
+}
+
+
+#selected-item-discription {
+    display: flex;
+    flex-flow: column;
+    max-width: 30rem;
+    height: fit-content;
+}
+
+.selected-item-volume {
+    margin: 3rem 0 0.15rem 7rem;
+    display: inline-block;
+    color: rgb(189, 180, 98);
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+}
+
+.selected-item-name {
+    margin: 0.2rem 0 0.15rem 7rem;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Allerta';
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    word-break: break-word;
+
+}
+
+.selected-item-info {
+    width: fit-content;
+    height: fit-content;
+    margin: 0.2rem 0 0.15rem 7rem;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.61);
+    text-align: justify;
+    word-break: break-word;
+}
+
+.selected-item-bitterness {
+    margin: 0.2rem 0 0.15rem 7rem;
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+}
+
+.selected-item-first-brewed {
+    margin: 0.2rem 0 0.15rem 7rem;
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+
+}
+
+.selected-item-price {
+    margin: 1rem 0 0.15rem 7rem;
+    color: rgb(189, 180, 98);
+    font-size: 1rem;
+    font-family: 'Montez';
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+
+#add-to-cart-bar {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    margin: 1.7rem 0 3rem 7rem;
+    padding: 0;
+    align-items: center;
+
+}
+
+#selected-item-quantity {
+    margin-right: 1rem;
+    padding: 0;
+    text-align: center;
+    height: 2rem;
+    width: 2.5rem;
+    color: black;
+    border: 0;
+    font-size: 0.8rem;
+    font-family: 'Allerta';
+    font-weight: 600;
+    word-spacing: 0.2rem;
+}
+
+
+#btn-add-to-cart {
+    margin: 0;
+    padding: 0;
+    height: 2rem;
+    width: 8rem;
+    background-color: rgb(189, 180, 98);
+    color: white;
+    font-size: 0.6rem;
+    font-family: 'Allerta';
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+} 
+
+#btn-add-to-cart:hover {
+    background-color: rgba(189, 180, 98, 0.603);
+    cursor: pointer;
+}
+
+#btn-add-to-cart:active {
+    color: grey;
+}
+
+#btn-wish {
+    margin: 0;
+    padding: auto;
+    height: 2.7rem;
+    width: 7rem;
+    background-color: rgba(189, 180, 98, 0.26);
+    color: white;
+    border-color: white;
+    font-size: 0.8rem;
+    font-family: 'Allerta';
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+
+}
+
+#btn-wish:hover {
+    background-color: rgba(189, 180, 98, 0.096);
+    cursor: pointer;
+    color: wheat;
+}
+
+#btn-wish:active {
+    color: rgb(204, 190, 164);
+}
+
+
+
+

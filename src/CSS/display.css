@@ -1,0 +1,130 @@
+#display {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+#items-display-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 4rem 2rem;
+    background-color: white;
+    width: 94vw;
+    
+}
+
+/* .item-element-forma {
+    position: static;
+    margin: 0 3rem 4rem 3rem;
+    padding: 0;
+    width: 18rem;
+    height: 30rem;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ */
+/*Item displaying in the list*/
+.item-element {
+    margin: 0 3rem 4rem 3rem;
+    padding: 0;
+    width: 18rem;
+    height: 30rem;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.item-element:hover .item-element-image {
+    opacity: 0.2;
+}
+
+.item-element:hover {
+   position: relative;
+
+}
+.item-element:hover .item-element-view {
+    display: flex;
+}
+
+.item-element-image {
+    margin: 0.5rem;
+    padding: 0;
+    width: 10rem;
+    height: 20rem;
+    border: 0;
+}
+
+.item-element-view {
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    display: none;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    top: 40%;
+    margin: 0;
+    padding: 0;
+    background: rgb(189, 180, 98);
+    outline: 6px double rgb(189, 180, 98);
+    border: 3px groove transparent;
+    font-size: 1.1rem;
+    font-family: 'Allerta';
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.9rem;
+    cursor: pointer;
+}
+
+/* .item-element-view:hover {
+    background: rgb(240, 228, 125);
+} */
+.item-element-view:active {
+    background: rgba(240, 228, 125, 0.438);
+}
+
+
+.item-element-name {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    text-align: center;
+    word-break: break-word;
+    margin: 0;
+    padding: 0.1rem;
+    color: rgb(189, 180, 98);
+    font-size: 1.2rem;
+    font-family: 'Allerta';
+    font-weight: bolder;
+    letter-spacing: 0.25rem;
+    word-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.item-element-price {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    text-align: center;
+    word-break: break-word;
+    margin: 0;
+    padding: 0.1rem;
+    color: black;
+    font-family: 'Montez';
+    font-size: 1.4rem;
+    font-weight:700;
+    letter-spacing: 0.1rem;
+}
+
